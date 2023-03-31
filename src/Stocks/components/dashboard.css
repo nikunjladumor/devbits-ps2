@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap');
+
+.btn{
+
+    font-family: Roboto Condensed;
+    font-weight: 600;
+    font-size: 16px;
+    color:#333333;
+    background-color: #039c62;
+    margin-left: 20%;
+    margin-top: 8%;
+    padding: 8px 20px;
+    border: solid #333333 2px;
+    box-shadow: #039c62(0, 0, 0, 0.15) 0px 2px 8px;
+    border-radius: 10px;
+    transition : 1000ms;
+    transform: translateY(0);
+    display:flexbox;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    }
+    
+    .btn:hover{
+    transition : 1000ms;
+    /* padding: 10px 50px; */
+    transform : translateY(-0px);
+    background-color:#65ffc4;
+    color: #6900ff;
+    border: solid 2px #6900ff;
+    }
+    
+    .buySell{
+        display:inline-flex;
+        flex-flow:row;
+        margin: 4%;
+        
+    }

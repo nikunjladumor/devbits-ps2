@@ -1,0 +1,148 @@
+.coin-container .content {
+    max-width: 740px;
+    margin: 1rem auto;
+    padding: .7rem 1rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #26272b;
+    box-shadow: 0px 0px 12px #18191b;
+    border-radius: 8px;
+}
+
+.rank {
+    margin: .5 0;
+}
+
+.rank-btn {
+    border: 1px solid #6900ff;
+    box-shadow: 0px 0px 8px #6900ff;
+    background-color: #6900ff;
+    border-radius: 8px;
+    padding: .2rem;
+}
+
+.info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.info .coin-heading {
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.info .coin-price {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info p {
+    padding-right: 1rem;
+}
+
+table {
+    margin: .5rem 0;
+}
+
+td, th {
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #333;
+}
+
+.stats {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    width: 100%;
+}
+
+.stats .row {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #808080;
+    margin: .6rem 0;
+    padding-bottom: .5rem;
+}
+
+.stats .row p:first-child {
+    color: #d3d3d3;
+}
+
+.about h3 {
+    margin: 1rem 0;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap');
+
+
+.btn{
+font-family: Roboto Condensed;
+font-weight: 600;
+font-size: 16px;
+color:#333333;
+background-color: #039c62;
+margin-left: 20%;
+margin-top: 8%;
+padding: 8px 20px;
+border: solid #333333 2px;
+box-shadow: #039c62(0, 0, 0, 0.15) 0px 2px 8px;
+border-radius: 10px;
+transition : 1000ms;
+transform: translateY(0);
+display:flexbox;
+flex-direction: row;
+align-items: center;
+cursor: pointer;
+text-transform: uppercase;
+}
+
+.btn:hover{
+transition : 1000ms;
+/* padding: 10px 50px; */
+transform : translateY(-0px);
+background-color:#65ffc4;
+color: #6900ff;
+border: solid 2px #6900ff;
+}
+
+
+
+@media screen and (max-width: 700px) {
+    .coin-container .content {
+        max-width: 100%;
+        margin: .5rem;
+        padding: 0 .5rem;
+    }
+
+    .stats {
+        grid-template-columns: 1fr;
+    }
+
+    td,th {
+        padding: 3px;
+    }
+
+    .rank {
+        margin: .5rem;
+    }
+
+    .rank-btn {
+        margin: .5rem 0;
+    }
+}
+
+
+
+
+
+
+
+
+

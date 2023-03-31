@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;500;600;700;900&display=swap');
+.landingPageMain{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+.landingMsgContainer{
+    height: 100vh;
+    width: 50vw;
+    color: white;
+    display: flex;
+    font-family: 'Nunito';
+    z-index: 100;
+}
+.landingDomainName{
+    color: rgb(77, 171, 229);
+}
+.landingMsg{
+    margin: auto 0;
+    padding: 0 5vw;
+    font-size: 4rem;
+    word-spacing: 2vh;
+}
+
+.landingBg{
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+}
+.landingBg1{
+    position: fixed;
+    z-index: -2;
+    height: 100vh;
+    width:100vw;
+}
+.landingBg2{
+    position: fixed;
+    z-index: -1;
+    opacity: 0.9;
+    height: 100vh;
+    width:100vw;
+}
+.landingBg3{
+    position: absolute;
+    z-index: 0;
+    top: 15vh;
+    left: 45vw;
+    height: 66vh;
+    width: 50vw;
+}

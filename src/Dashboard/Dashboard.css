@@ -1,0 +1,57 @@
+body{
+    overflow-x: hidden;
+    
+}
+.left-dashboard {
+    padding-left: 10px;
+    float: left;
+    width: 50%;
+    background-color: #ccc;
+    height: 650px;
+   
+}
+.right-dashboard {
+    float: right;
+    width: 50%;
+    background-color: #eee;
+    height: 650px;
+}
+
+.logo {
+    float: left;
+    width: 50%;
+    background-color: #ccc;
+   
+}
+.user-name {
+    float: right;
+    width: 50%;
+    background-color: #eee;
+    
+}
+.account{
+   
+    width: 50%;
+}
+.search-bar{
+    padding-left: 100px;
+    padding-top: 11px;
+}
+.logo-image{
+
+   font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: "Montserrat";
+    text-align: center;
+    color: #fff;
+    box-sizing: border-box;
+    vertical-align: middle;
+    border-style: none;
+    width: 20%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.card{
+width: 18rem;
+}

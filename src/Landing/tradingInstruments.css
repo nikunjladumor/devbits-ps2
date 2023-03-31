@@ -1,0 +1,39 @@
+.tradingInstrumentsMain{
+    position: relative;
+    width: 100vw;
+    font-family: 'Nunito';
+}
+.InstrumentBox{
+    position: relative;
+    display: flex;
+    height: 60vh;
+    width: 90vw;
+    margin: 10vh 5vw;
+    padding: 1.5vh 2vw;
+    border-radius: 2vh;
+    background: rgb(195 111 189 / 20%);
+    z-index: 3;
+}
+.instrumentBoxHeading{
+    width: 15vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.instrumentBoxDescription{
+    padding: 2vh 4vw;
+    font-size: 1.2rem;
+    width: 58vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+.instrumentBoxButton{
+    width: 15vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
